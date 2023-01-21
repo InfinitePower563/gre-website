@@ -1,0 +1,67 @@
+.logo {
+    /*Resize the image*/
+width: 30%;
+height: auto;
+}
+/* put the image on top of the left side of the navbar, but above the hr */
+nav ul {
+    /*Remove the bullets*/
+    list-style: none;
+    margin-bottom: 0;
+}
+nav ul li {
+    /*Display the list items horizontally*/
+    display: inline-block;
+    /*Place a vertical line between the list items*/
+    border-right: 1px solid #000;
+    /*Equalize the distance between the beginning and last vertical line*/
+    padding: 0 20px;
+    color: #1A05B7;
+}
+nav ul li:last-child {
+    /*Remove the vertical line from the last list item*/
+    border-right: none;
+}
+nav {
+    /*Center the navigation*/
+    text-align: right;
+}
+/*override bootstrap and remove the margins for hr*/
+hr {
+    margin: 0;
+}
+.navbar {
+    margin: 0;
+    border: 0;
+}
+.selected {
+    color: black;
+}
+.content {
+    margin-left: 1%;
+}
+.oilfield {
+    /* center the image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* resize the image */
+    width: 60%;
+    height: auto;
+}
+span {
+    /* Increase the text size to 10pt*/
+    font-size: 12pt;
+}
+body {
+    background-color: #B7B7B7;
+}
+.header {
+    background-color: #ffffff;
+}
+.copyright {
+    text-align: center;
+}
+.jd-inner-begin {
+    font-size: 14pt;
+}
