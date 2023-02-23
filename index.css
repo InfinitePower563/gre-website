@@ -65,3 +65,22 @@ body {
 .jd-inner-begin {
     font-size: 14pt;
 }
+.navbar a {
+    /*Remove the underline from the links and set it to the regular color*/
+    text-decoration: none;
+    color: #1A05B7;
+}
+/*make the links have the underline when hovered over, and change the color to green*/
+.navbar a:hover {
+    text-decoration: underline;
+    color: green;
+}
+.about-content {
+    font-size: 14pt;
+    /*add 2px of padding to the top and bottom*/
+    padding: 2px 0;
+}
+.centered-section {
+    /*Center the section*/
+    text-align: center;
+}
