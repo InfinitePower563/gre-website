@@ -84,3 +84,9 @@ body {
     /*Center the section*/
     text-align: center;
 }
+.footer-container {
+    /* stick to the bottom of the page*/
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
